@@ -43,6 +43,6 @@ public class CustomerTest {
     @Test
     public void testTestToString() {
         Customer c = new Customer("John", "john@example.com");
-        assertEquals("John john@example.com", c.toString());
+        assertEquals("Customer{John john@example.com}", c.toString());
     }
 }
