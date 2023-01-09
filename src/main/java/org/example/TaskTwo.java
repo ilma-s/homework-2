@@ -5,11 +5,6 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-//        System.out.println("Task 2: Customers Spent");
-//        for (Map.Entry<java.Customer, Double> e : customerByMoneySpent.entrySet()) {
-//            System.out.println("customer: " + e.getKey().getName() + " spent: " + e.getValue());
-//        }
-
 public class TaskTwo {
     public static void generate(Map<Customer, Double> customerByMoneySpent) throws IOException {
         FileWriter fw = new FileWriter("TaskTwoReport.csv");

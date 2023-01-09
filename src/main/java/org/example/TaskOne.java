@@ -22,14 +22,7 @@ public class TaskOne {
                 fw.write(listSort.get(i).getKey().getName() + ", " + listSort.get(i).getValue() + "\n");
             }
         }
-        /*
-java.MapUtil.sortByValue(itemsPerNumSold);
-for (Map.Entry<java.Item, Integer> e : java.Main.itemsPerNumSold.entrySet()) {
-System.out.println("java.Item: " + e.getKey() + " sold: " + e.getValue());
-}
- */
 
         fw.close();
-
     }
 }

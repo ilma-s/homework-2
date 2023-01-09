@@ -3,10 +3,6 @@ package org.example;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Map;
-//        System.out.println("Task 3: Total Sales for Each Category");
-//        for (Map.Entry<String, Integer> e : salesByCategory.entrySet()) {
-//            System.out.println("category: " + e.getKey() + " sales: " + e.getValue());
-//        }
 
 public class TaskThree {
 
