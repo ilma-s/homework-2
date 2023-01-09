@@ -1,0 +1,6 @@
+Customer, Money Spent 
+Customer{John john@example.com}, 500.0
+Customer{Dave dave@example.com}, 300.0
+Customer{Jake jake@example.com}, 200.0
+Customer{Berth berth@example.com}, 150.0
+Customer{Alan alan@example.com}, 100.0
