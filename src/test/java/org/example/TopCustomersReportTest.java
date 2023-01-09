@@ -10,7 +10,7 @@ import java.util.Map;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class TaskTwoTest {
+public class TopCustomersReportTest {
 
     @Test
     public void generate() throws IOException {
@@ -21,7 +21,7 @@ public class TaskTwoTest {
         map.put(new Customer("Dave", "dave@example.com"), 300.0);
         map.put(new Customer("John", "john@example.com"), 500.0);
 
-        TaskTwo.generate(map);
+        TopCustomersReport.generate(map);
 
         BufferedReader r = new BufferedReader(new FileReader("TaskTwoReport.csv"));
         assertEquals("Customer, Money Spent ", r.readLine());

@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-public class TaskOne {
+public class TopSellingItemsReport {
 
     public static void generate(Map<Item, Integer> itemsPerNumSold) throws IOException {
         FileWriter fw = new FileWriter("TaskOneReport.csv");

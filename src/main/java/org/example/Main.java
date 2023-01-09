@@ -142,11 +142,11 @@ public class Main {
             }
         }
 
-        TaskOne.generate(itemsPerNumSold);
-        TaskTwo.generate(customerByMoneySpent);
-        TaskThree.generate(salesByCategory);
-        TaskFour.generate(allCustomerHistory);
-        TaskFive.generate(allItems);
+        TopSellingItemsReport.generate(itemsPerNumSold);
+        TopCustomersReport.generate(customerByMoneySpent);
+        CategorySalesReport.generate(salesByCategory);
+        CustomerPurchaseHistoryReport.generate(allCustomerHistory);
+        InventoryReport.generate(allItems);
 
     }
 }

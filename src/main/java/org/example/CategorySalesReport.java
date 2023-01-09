@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Map;
 
-public class TaskThree {
+public class CategorySalesReport {
 
     public static void generate(Map<String, Integer> salesByCategory) throws IOException {
         FileWriter fw = new FileWriter("TaskThreeReport.csv");

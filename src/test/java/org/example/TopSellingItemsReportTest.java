@@ -9,7 +9,7 @@ import java.util.Map;
 import static junit.framework.TestCase.assertEquals;
 
 
-public class TaskOneTest {
+public class TopSellingItemsReportTest {
 
     @Test
     public void generate() throws IOException {
@@ -20,7 +20,7 @@ public class TaskOneTest {
         itemsPerNumSold.put(new Item("Cheese", 3.0, 54, "Food"), 50);
         itemsPerNumSold.put(new Item("Chocolate", 2.0, 47, "Food"), 25);
 
-        TaskOne.generate(itemsPerNumSold);
+        TopSellingItemsReport.generate(itemsPerNumSold);
 
         BufferedReader r = new BufferedReader(new FileReader("TaskOneReport.csv"));
         assertEquals("Item Name, Quantity Sold ", r.readLine());

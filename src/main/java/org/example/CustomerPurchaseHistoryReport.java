@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class TaskFour {
+public class CustomerPurchaseHistoryReport {
 
     public static void generate(ArrayList<Customer> allCustomerHistory) throws IOException {
         FileWriter fw = new FileWriter("TaskFourReport.csv");

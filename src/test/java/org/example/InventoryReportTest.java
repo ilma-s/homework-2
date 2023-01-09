@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import static junit.framework.TestCase.assertEquals;
 
 
-public class TaskFiveTest {
+public class InventoryReportTest {
 
     @Test
     public void generate() throws IOException {
@@ -18,7 +18,7 @@ public class TaskFiveTest {
         allItems.add(new Item("Chocolate", 4.5, 54, "Food"));
         allItems.add(new Item("Banana", 3.0, 18, "Food"));
 
-        TaskFive.generate(allItems);
+        InventoryReport.generate(allItems);
 
         BufferedReader reader = new BufferedReader(new FileReader("TaskFiveReport.csv"));
         assertEquals("Item Name, Quantity " , reader.readLine());

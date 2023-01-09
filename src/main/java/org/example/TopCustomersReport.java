@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-public class TaskTwo {
+public class TopCustomersReport {
     public static void generate(Map<Customer, Double> customerByMoneySpent) throws IOException {
         FileWriter fw = new FileWriter("TaskTwoReport.csv");
         List<Map.Entry<Customer, Double>> listSort = MapUtil.getFirstN(customerByMoneySpent, customerByMoneySpent.size()); //sort

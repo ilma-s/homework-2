@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 import static org.junit.Assert.*;
 
-public class TaskFourTest {
+public class CustomerPurchaseHistoryReportTest {
 
     @Test
     public void generate() throws IOException {
@@ -24,7 +24,7 @@ public class TaskFourTest {
         c2.addPurchase(new Purchase(new Item("Bread", 3.5, 19, "Food"), 8));
         allCustomerHistory.add(c2);
 
-        TaskFour.generate(allCustomerHistory);
+        CustomerPurchaseHistoryReport.generate(allCustomerHistory);
 
         BufferedReader reader = new BufferedReader(new FileReader("TaskFourReport.csv"));
 

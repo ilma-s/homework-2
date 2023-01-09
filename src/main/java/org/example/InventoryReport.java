@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class TaskFive {
+public class InventoryReport {
 
     public static void generate(ArrayList<Item> allItems) throws IOException {
         FileWriter fw = new FileWriter("TaskFiveReport.csv");
