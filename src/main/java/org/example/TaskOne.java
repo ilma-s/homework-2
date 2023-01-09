@@ -8,7 +8,7 @@ import java.util.Map;
 public class TaskOne {
 
     public static void generate(Map<Item, Integer> itemsPerNumSold) throws IOException {
-        FileWriter fw = new FileWriter("C:\\\\Users\\\\ilma2\\\\Desktop\\\\Homework2\\\\TaskOneReport.csv");
+        FileWriter fw = new FileWriter("TaskOneReport.csv");
         fw.write("Item Name, Quantity Sold \n");
 
         List<Map.Entry<Item, Integer>> listSort = MapUtil.getFirstN(itemsPerNumSold, itemsPerNumSold.size()); //sort

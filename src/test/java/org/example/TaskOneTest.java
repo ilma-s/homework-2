@@ -22,7 +22,7 @@ public class TaskOneTest {
 
         TaskOne.generate(itemsPerNumSold);
 
-        BufferedReader r = new BufferedReader(new FileReader("C:\\Users\\ilma2\\Desktop\\Homework2\\TaskOneReport.csv"));
+        BufferedReader r = new BufferedReader(new FileReader("TaskOneReport.csv"));
         assertEquals("Item Name, Quantity Sold ", r.readLine());
         assertEquals("Cheese, 50", r.readLine());
         assertEquals("Chocolate, 25", r.readLine());
